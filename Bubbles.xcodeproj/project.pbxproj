@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CD5356C81A36060700B2B510 /* AudioListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5356C71A36060700B2B510 /* AudioListener.swift */; };
 		CD5356CA1A36069400B2B510 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5356C91A36069400B2B510 /* SimpleClass.swift */; };
+		CD5356CC1A3635C100B2B510 /* SimpleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5356CB1A3635C100B2B510 /* SimpleTest.swift */; };
 		CDF904401A2D010900701884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9043F1A2D010900701884 /* AppDelegate.swift */; };
 		CDF904421A2D010900701884 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF904411A2D010900701884 /* art.scnassets */; };
 		CDF904441A2D010900701884 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF904431A2D010900701884 /* GameViewController.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		CD5356C71A36060700B2B510 /* AudioListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioListener.swift; sourceTree = "<group>"; };
 		CD5356C91A36069400B2B510 /* SimpleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
+		CD5356CB1A3635C100B2B510 /* SimpleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTest.swift; sourceTree = "<group>"; };
 		CDF9043A1A2D010900701884 /* Bubbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF9043E1A2D010900701884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF9043F1A2D010900701884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				CDF904571A2D010900701884 /* BubblesTests.swift */,
 				CDF904551A2D010900701884 /* Supporting Files */,
+				CD5356CB1A3635C100B2B510 /* SimpleTest.swift */,
 			);
 			path = BubblesTests;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF904581A2D010900701884 /* BubblesTests.swift in Sources */,
+				CD5356CC1A3635C100B2B510 /* SimpleTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
