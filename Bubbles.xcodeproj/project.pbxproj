@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5356C81A36060700B2B510 /* AudioListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5356C71A36060700B2B510 /* AudioListener.swift */; };
+		CD5356CA1A36069400B2B510 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5356C91A36069400B2B510 /* SimpleClass.swift */; };
 		CDF904401A2D010900701884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9043F1A2D010900701884 /* AppDelegate.swift */; };
 		CDF904421A2D010900701884 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF904411A2D010900701884 /* art.scnassets */; };
 		CDF904441A2D010900701884 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF904431A2D010900701884 /* GameViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5356C71A36060700B2B510 /* AudioListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioListener.swift; sourceTree = "<group>"; };
+		CD5356C91A36069400B2B510 /* SimpleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
 		CDF9043A1A2D010900701884 /* Bubbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF9043E1A2D010900701884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF9043F1A2D010900701884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				CDF904481A2D010900701884 /* Images.xcassets */,
 				CDF9044A1A2D010900701884 /* LaunchScreen.xib */,
 				CDF9043D1A2D010900701884 /* Supporting Files */,
+				CD5356C71A36060700B2B510 /* AudioListener.swift */,
+				CD5356C91A36069400B2B510 /* SimpleClass.swift */,
 			);
 			path = Bubbles;
 			sourceTree = "<group>";
@@ -216,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5356CA1A36069400B2B510 /* SimpleClass.swift in Sources */,
 				CDF904441A2D010900701884 /* GameViewController.swift in Sources */,
 				CDF904401A2D010900701884 /* AppDelegate.swift in Sources */,
+				CD5356C81A36060700B2B510 /* AudioListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				CDF9045D1A2D010900701884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDF9045E1A2D010900701884 /* Build configuration list for PBXNativeTarget "BubblesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				CDF904601A2D010900701884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
